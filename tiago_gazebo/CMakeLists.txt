@@ -30,7 +30,7 @@ if(BUILD_TESTING)
   )
 
   install(
-    DIRECTORY launch urdf models meshes worlds action config map
+    DIRECTORY launch config
     DESTINATION share/${PROJECT_NAME}
   )
 
